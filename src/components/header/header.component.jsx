@@ -12,8 +12,12 @@ const Header = ({currentUser}) => (
       <Logo className='logo' />
     </Link>
     <div className='options'>
+      
+    <Link className='option' to='/shop'>
+        MENU
+      </Link>
       <Link className='option' to='/shop'>
-        SHOP
+        ABOUT
       </Link>
       <Link className='option' to='/shop'>
         CONTACT
