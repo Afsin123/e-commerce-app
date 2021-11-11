@@ -25,22 +25,22 @@ class Directory extends React.Component {
               linkUrl: 'shop/jackets'
             },
             {
-              title: 'sneakers',
-              imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+              title: 'Asian Cusine',
+              imageUrl: 'https://images.unsplash.com/photo-1590330813083-fc22d4b6a48c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80',
               id: 3,
               linkUrl: 'shop/sneakers'
             },
             {
-              title: 'womens',
-              imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
-              size: 'large',
+              title: 'Indian',
+              imageUrl: 'https://images.unsplash.com/photo-1595436252086-7496fb8c41e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80',
+              // size: 'large',
               id: 4,
               linkUrl: 'shop/womens'
             },
             {
-              title: 'mens',
-              imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-              size: 'large',
+              title: 'Continental',
+              imageUrl: 'https://images.unsplash.com/photo-1595436252086-7496fb8c41e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80',
+              // size: 'large',
               id: 5,
               linkUrl: 'shop/mens'
             }
