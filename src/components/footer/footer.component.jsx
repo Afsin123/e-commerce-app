@@ -63,7 +63,7 @@ const Footer = () => {
           width: "100%",
         }}
       >
-        <form
+        {/* <form
           style={{
             display: "flex",
             flexDirection: "column",
@@ -130,7 +130,7 @@ const Footer = () => {
           >
             submit
           </button>
-        </form>
+        </form> */}
         <div style={{ width: "500px", padding: "1.5rem" }}>
           <div
             style={{
@@ -140,7 +140,7 @@ const Footer = () => {
             }}
           >
             <ImLocation size="25px" style={{ color: "orange" }} />
-            <p style={{ color: "gray" }}>California, CA</p>
+            <p style={{ color: "gray" }}> India</p>
           </div>
           <div
             style={{
@@ -150,7 +150,7 @@ const Footer = () => {
             }}
           >
             <BsPhone size="25px" style={{ color: "orange" }} />
-            <p style={{ color: "gray" }}>+1 998765432</p>
+            <p style={{ color: "gray" }}>+91 998765432</p>
           </div>
           <div
             style={{

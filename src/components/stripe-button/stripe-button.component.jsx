@@ -1,6 +1,6 @@
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
-// import { connect } from 'react-redux';
+import { connect } from 'react-redux';
 // import { push } from 'connected-react-router';
 
 // import { resetCart as resetCartAction } from '../../redux/cart/cart.actions';
@@ -16,7 +16,7 @@ const StripeCheckoutButton = ({ price, push, resetCart }) => {
   return (
     <StripeCheckout
       label='Pay with 💳'
-      name='CRWN PALACE Ltd.'
+      name='foodHub Ltd.'
       billingAddress
       shippingAddress
       image='https://svgshare.com/i/CUz.svg'

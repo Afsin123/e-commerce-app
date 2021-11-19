@@ -10,6 +10,7 @@ import ShopPage from "./pages/shop/shop.component"
 import Header from "./components/header/header.component";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 import CheckoutPage from './pages/checkout/checkout.component';
+//import ImgSlider from "./components/ImgSlider";
 import Footer from "./components/footer/footer.component";
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils'
@@ -63,7 +64,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-       
+       {/* <ImgSlider/> */}
         <Header/> 
         <Switch>
           <Route exact path='/' component={Homepage} />
@@ -82,7 +83,7 @@ class App extends React.Component {
           />
         
         </Switch>
-      <Footer/>
+      <Footer/> 
       </div>
     );
   }

@@ -25,10 +25,10 @@ const Header = ({currentUser, hidden}) => (
      <Link className='option' to='/shop'>
         MENU
       </Link>
-      <Link className='option' to='/shop'>
+      <Link className='option' to='</footer>'>
         ABOUT
       </Link>
-      <Link className='option' to='/shop'>
+      <Link className='option' to='/footer'>
         CONTACT
       </Link>
       { 
